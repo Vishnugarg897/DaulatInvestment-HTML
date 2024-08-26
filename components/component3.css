@@ -1,0 +1,211 @@
+.component3-container1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component3-max-width {
+  gap: var(--dl-space-space-fourunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.component3-container2 {
+  align-items: start;
+}
+.component3-section-header {
+  gap: var(--dl-space-space-oneandhalfunits);
+  top: 10%;
+  display: flex;
+  position: sticky;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component3-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.component3-container3 {
+  grid-area: span 1/span 1/span 1/span 1;
+}
+.component3-container4 {
+  top: 10%;
+  position: sticky;
+  transform: rotate(-2deg);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-theme-accent1);
+}
+.component3-container5 {
+  top: 10%;
+  position: sticky;
+  transform: rotate(2deg);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-theme-accent2);
+}
+.component3-container6 {
+  top: 10%;
+  position: sticky;
+  transform: rotate(-2deg);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-theme-accent1);
+}
+.component3-container7 {
+  top: 10%;
+  position: sticky;
+  transform: rotate(2deg);
+  background-color: var(--dl-color-theme-accent2);
+}
+.component3-fragment10 {
+  display: contents;
+}
+.component3-text25 {
+  top: var(--dl-space-space-unit);
+  right: var(--dl-space-space-unit);
+  display: inline-block;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.component3-fragment11 {
+  display: contents;
+}
+.component3-text26 {
+  display: inline-block;
+}
+.component3-fragment12 {
+  display: contents;
+}
+.component3-text27 {
+  display: inline-block;
+  text-align: center;
+}
+.component3-fragment13 {
+  display: contents;
+}
+.component3-text28 {
+  top: var(--dl-space-space-unit);
+  right: var(--dl-space-space-unit);
+  display: inline-block;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.component3-fragment14 {
+  display: contents;
+}
+.component3-text29 {
+  display: inline-block;
+  text-align: center;
+}
+.component3-fragment15 {
+  display: contents;
+}
+.component3-text30 {
+  display: inline-block;
+}
+.component3-fragment16 {
+  display: contents;
+}
+.component3-text31 {
+  display: inline-block;
+}
+.component3-fragment17 {
+  display: contents;
+}
+.component3-text32 {
+  top: var(--dl-space-space-unit);
+  right: var(--dl-space-space-unit);
+  display: inline-block;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.component3-fragment18 {
+  display: contents;
+}
+.component3-text33 {
+  display: inline-block;
+}
+.component3-fragment19 {
+  display: contents;
+}
+.component3-text34 {
+  display: inline-block;
+}
+.component3-fragment20 {
+  display: contents;
+}
+.component3-text35 {
+  display: inline-block;
+}
+.component3-fragment21 {
+  display: contents;
+}
+.component3-text36 {
+  display: inline-block;
+}
+.component3-fragment22 {
+  display: contents;
+}
+.component3-text37 {
+  top: var(--dl-space-space-unit);
+  right: var(--dl-space-space-unit);
+  display: inline-block;
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.component3-fragment23 {
+  display: contents;
+}
+.component3-text38 {
+  display: inline-block;
+  text-align: center;
+}
+.component3-fragment24 {
+  display: contents;
+}
+.component3-text39 {
+  display: inline-block;
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .component3-max-width {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .component3-section-header {
+    position: static;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .component3-actions {
+    width: 100%;
+    align-self: flex-start;
+  }
+  .component3-container4 {
+    width: 100%;
+  }
+  .component3-container5 {
+    width: 100%;
+  }
+  .component3-container6 {
+    width: 100%;
+  }
+  .component3-container7 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .component3-button {
+    width: 100%;
+  }
+}
